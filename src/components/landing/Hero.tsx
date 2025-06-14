@@ -16,11 +16,10 @@ const Hero = () => {
         </p>
         <div className="space-y-4 md:space-y-0 md:space-x-4">
           <Button
-            className="w-full md:w-auto px-8 text-lg font-bold flex flex-col h-auto leading-snug"
+            className="w-full md:w-auto text-lg font-bold"
             size="lg"
           >
-            <span>QUERO TRANSFORMAR</span>
-            <span>MEU CORPO</span>
+            QUERO TRANSFORMAR MEU CORPO
           </Button>
         </div>
       </div>
