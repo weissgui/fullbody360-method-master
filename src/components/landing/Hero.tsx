@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 const Hero = () => {
   return (
     <section className="container grid lg:grid-cols-2 place-items-center py-20 md:py-32 gap-10">
-      <div className="text-center lg:text-start space-y-6">
-        <main className="text-4xl md:text-5xl lg:text-6xl font-black">
+      <div className="text-center lg:text-start space-y-6 flex flex-col items-center lg:items-start">
+        <main className="text-3xl md:text-5xl lg:text-6xl font-black">
           <h1>
             Construa um Corpo{" "}
             <span className="text-primary">Atlético Naturalmente</span>
@@ -14,16 +14,12 @@ const Hero = () => {
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
           Com apenas 3 a 4 treinos por semana, alimentação flexível e estratégia inteligente de cardio, o FullBody360 é o método científico e realista para ganhar massa muscular, queimar gordura e transformar seu corpo de forma sustentável.
         </p>
-        <div className="space-y-4 md:space-y-0 md:space-x-4">
+        <div className="space-y-4 md:space-y-0 md:space-x-4 w-full md:w-auto">
           <Button
-            className="w-full md:w-auto text-base md:text-lg font-bold px-4 md:px-8 h-auto py-3"
+            className="w-full md:w-auto text-base md:text-lg font-bold px-4 md:px-8"
             size="lg"
           >
-            <span className="text-center leading-snug">
-              QUERO TRANSFORMAR MEU
-              <br />
-              CORPO
-            </span>
+            QUERO TRANSFORMAR MEU CORPO
           </Button>
         </div>
       </div>
