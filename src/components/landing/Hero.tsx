@@ -15,17 +15,25 @@ const Hero = () => {
           Com apenas 3 a 4 treinos por semana, alimentação flexível e estratégia inteligente de cardio, o FullBody360 é o método científico e realista para ganhar massa muscular, queimar gordura e transformar seu corpo de forma sustentável.
         </p>
         <div className="space-y-4 md:space-y-0 md:space-x-4">
-          <Button className="w-full md:w-1/3 text-lg font-bold" size="lg">
-            QUERO TRANSFORMAR MEU CORPO
+          <Button
+            className="w-full md:w-auto px-8 text-lg font-bold flex flex-col h-auto leading-snug"
+            size="lg"
+          >
+            <span>QUERO TRANSFORMAR</span>
+            <span>MEU CORPO</span>
           </Button>
         </div>
       </div>
 
-      <div className="w-full h-80 lg:h-full bg-muted rounded-lg flex items-center justify-center">
-        <div className="text-muted-foreground text-center">
-          <p>[Vídeo/Imagem de Alunos]</p>
-          <p className="text-sm">(Placeholder for transformation video)</p>
-        </div>
+      <div className="w-full rounded-lg overflow-hidden aspect-video">
+        <iframe
+          className="w-full h-full"
+          src="https://www.youtube.com/embed/InEBeLcZFK0"
+          title="Vídeo de Apresentação FullBody360"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        ></iframe>
       </div>
     </section>
   );
