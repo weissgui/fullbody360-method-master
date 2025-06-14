@@ -16,10 +16,14 @@ const Hero = () => {
         </p>
         <div className="space-y-4 md:space-y-0 md:space-x-4">
           <Button
-            className="w-full md:w-auto text-base md:text-lg font-bold px-4 md:px-8"
+            className="w-full md:w-auto text-base md:text-lg font-bold px-4 md:px-8 h-auto py-3"
             size="lg"
           >
-            QUERO TRANSFORMAR MEU CORPO
+            <span className="text-center leading-snug">
+              QUERO TRANSFORMAR MEU
+              <br />
+              CORPO
+            </span>
           </Button>
         </div>
       </div>
